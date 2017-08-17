@@ -7,9 +7,9 @@ Modelo para desenvolvimento de projetos utilizando as seguintes tecnologias:
 ## Iniciando
 
 Para iniciar o projeto execute os seguintes comandos:
->> npm install
->> dotnet watch run
->> ng serve --proxy-config proxy.config.json
+- npm install
+- dotnet watch run
+- ng serve --proxy-config proxy.config.json
 
 ## Escopo
 
