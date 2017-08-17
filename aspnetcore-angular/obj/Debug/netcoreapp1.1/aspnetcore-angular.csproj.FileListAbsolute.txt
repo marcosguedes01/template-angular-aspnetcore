@@ -1,0 +1,8 @@
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug\netcoreapp1.1\aspnetcore-angular.deps.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug\netcoreapp1.1\aspnetcore-angular.runtimeconfig.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug\netcoreapp1.1\aspnetcore-angular.runtimeconfig.dev.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug\netcoreapp1.1\aspnetcore-angular.dll
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug\netcoreapp1.1\aspnetcore-angular.pdb
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.AssemblyInfo.cs
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.dll
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.pdb

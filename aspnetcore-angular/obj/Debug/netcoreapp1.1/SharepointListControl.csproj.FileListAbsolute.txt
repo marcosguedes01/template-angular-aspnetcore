@@ -1,0 +1,8 @@
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\bin\Debug\netcoreapp1.1\SharepointListControl.deps.json
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\bin\Debug\netcoreapp1.1\SharepointListControl.runtimeconfig.json
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\bin\Debug\netcoreapp1.1\SharepointListControl.runtimeconfig.dev.json
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\bin\Debug\netcoreapp1.1\SharepointListControl.dll
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\bin\Debug\netcoreapp1.1\SharepointListControl.pdb
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\obj\Debug\netcoreapp1.1\SharepointListControl.AssemblyInfo.cs
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\obj\Debug\netcoreapp1.1\SharepointListControl.dll
+C:\projects\angular_4_2_5\aspnet\SharepointListControl\SharepointListControl\obj\Debug\netcoreapp1.1\SharepointListControl.pdb
