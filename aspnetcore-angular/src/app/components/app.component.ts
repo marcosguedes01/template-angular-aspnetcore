@@ -1,6 +1,8 @@
 ﻿import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
+import { Globals } from '../globals';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +12,7 @@ export class AppComponent {
     title = 'app';
     apiValues: string[] = [];
 
-    constructor(private _http: Http) { }
+    constructor(private globals: Globals, private _http: Http) { }
 
     ngOnInit()
     {
