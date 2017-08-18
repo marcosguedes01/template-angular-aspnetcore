@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SharepointListControl": {
+    "AspnetCoreAngular": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

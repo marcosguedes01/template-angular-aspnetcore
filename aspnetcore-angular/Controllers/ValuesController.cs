@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace SharepointListControl.Controllers
+namespace AspnetCoreAngular.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
