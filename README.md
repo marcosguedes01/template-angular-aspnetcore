@@ -13,4 +13,5 @@ Para iniciar o projeto execute os seguintes comandos:
 
 ## Escopo
 
-Esta primeira versão permite o desenvolvimento de aplicações utilizando o angular integrado às APIs no ASP.NET Core.
+- Esta primeira versão permite o desenvolvimento de aplicações utilizando o angular integrado às APIs no ASP.NET Core.
+- Uma tela de login é disponibilizada para exemplo de como obter o token.

@@ -6,3 +6,12 @@ C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\bin\Debug
 C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.AssemblyInfo.cs
 C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.dll
 C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.pdb
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\bin\Debug\netcoreapp1.1\AspnetCoreAngular.deps.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\bin\Debug\netcoreapp1.1\AspnetCoreAngular.runtimeconfig.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\bin\Debug\netcoreapp1.1\AspnetCoreAngular.runtimeconfig.dev.json
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\bin\Debug\netcoreapp1.1\AspnetCoreAngular.dll
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\bin\Debug\netcoreapp1.1\AspnetCoreAngular.pdb
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.csprojResolveAssemblyReference.cache
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\obj\Debug\netcoreapp1.1\aspnetcore-angular.AssemblyInfo.cs
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\obj\Debug\netcoreapp1.1\AspnetCoreAngular.dll
+C:\projects\angular_4_2_5\aspnet\aspnetcore-angular\login-token\aspnetcore-angular\obj\Debug\netcoreapp1.1\AspnetCoreAngular.pdb
