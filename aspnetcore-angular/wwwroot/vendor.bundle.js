@@ -1324,6 +1324,44 @@ function flattenUnsubscriptionErrors(errors) {
 
 /***/ }),
 
+/***/ "../../../../rxjs/add/operator/catch.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__("../../../../rxjs/Observable.js");
+var catch_1 = __webpack_require__("../../../../rxjs/operator/catch.js");
+Observable_1.Observable.prototype.catch = catch_1._catch;
+Observable_1.Observable.prototype._catch = catch_1._catch;
+//# sourceMappingURL=catch.js.map
+
+/***/ }),
+
+/***/ "../../../../rxjs/add/operator/finally.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__("../../../../rxjs/Observable.js");
+var finally_1 = __webpack_require__("../../../../rxjs/operator/finally.js");
+Observable_1.Observable.prototype.finally = finally_1._finally;
+Observable_1.Observable.prototype._finally = finally_1._finally;
+//# sourceMappingURL=finally.js.map
+
+/***/ }),
+
+/***/ "../../../../rxjs/add/operator/map.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__("../../../../rxjs/Observable.js");
+var map_1 = __webpack_require__("../../../../rxjs/operator/map.js");
+Observable_1.Observable.prototype.map = map_1.map;
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+
 /***/ "../../../../rxjs/observable/ArrayLikeObservable.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2897,6 +2935,56 @@ var FilterSubscriber = (function (_super) {
     return FilterSubscriber;
 }(Subscriber_1.Subscriber));
 //# sourceMappingURL=filter.js.map
+
+/***/ }),
+
+/***/ "../../../../rxjs/operator/finally.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subscriber_1 = __webpack_require__("../../../../rxjs/Subscriber.js");
+var Subscription_1 = __webpack_require__("../../../../rxjs/Subscription.js");
+/**
+ * Returns an Observable that mirrors the source Observable, but will call a specified function when
+ * the source terminates on complete or error.
+ * @param {function} callback Function to be called when source terminates.
+ * @return {Observable} An Observable that mirrors the source, but will call the specified function on termination.
+ * @method finally
+ * @owner Observable
+ */
+function _finally(callback) {
+    return this.lift(new FinallyOperator(callback));
+}
+exports._finally = _finally;
+var FinallyOperator = (function () {
+    function FinallyOperator(callback) {
+        this.callback = callback;
+    }
+    FinallyOperator.prototype.call = function (subscriber, source) {
+        return source.subscribe(new FinallySubscriber(subscriber, this.callback));
+    };
+    return FinallyOperator;
+}());
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var FinallySubscriber = (function (_super) {
+    __extends(FinallySubscriber, _super);
+    function FinallySubscriber(destination, callback) {
+        _super.call(this, destination);
+        this.add(new Subscription_1.Subscription(callback));
+    }
+    return FinallySubscriber;
+}(Subscriber_1.Subscriber));
+//# sourceMappingURL=finally.js.map
 
 /***/ }),
 
@@ -57782,8 +57870,8 @@ ReactiveFormsModule.ctorParameters = function () { return []; };
 /* unused harmony export RequestMethod */
 /* unused harmony export ResponseContentType */
 /* unused harmony export ResponseType */
-/* unused harmony export Headers */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Http; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Headers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Http; });
 /* unused harmony export Jsonp */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpModule; });
 /* unused harmony export JsonpModule */
@@ -64734,7 +64822,7 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_2__angular_core__["I" /* Version */]
 /* unused harmony export PreloadAllModules */
 /* unused harmony export PreloadingStrategy */
 /* unused harmony export RouterPreloader */
-/* unused harmony export ActivatedRoute */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ActivatedRoute; });
 /* unused harmony export ActivatedRouteSnapshot */
 /* unused harmony export RouterState */
 /* unused harmony export RouterStateSnapshot */
