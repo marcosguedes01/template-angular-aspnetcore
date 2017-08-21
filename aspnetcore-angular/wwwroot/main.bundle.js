@@ -245,7 +245,11 @@ var DashboardComponent = (function () {
     }
     DashboardComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this._http.get("/api/values").subscribe(function (values) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        var authToken = localStorage.getItem('auth_token');
+        headers.append('Authorization', "Bearer " + authToken);
+        this._http.get("/api/values", { headers: headers }).subscribe(function (values) {
             _this.apiValues = values.json();
         });
     };
